@@ -1,5 +1,3 @@
-//bubble sort an array
-
 #include<iostream>
 using namespace std;
 
@@ -29,8 +27,7 @@ int main()
 		cout<<"Enter the element "<<i+1<<" of array: ";
 		cin>>arr[i];
 	}
-	// int arr[]={24,12,58,668,88,20,4};
-	// int n= sizeof(arr)/sizeof(arr[0]);
+
 	cout<<"Original Array: ";
 	for(int i=0; i<n; i++)
 	{
@@ -46,4 +43,3 @@ int main()
 	cout<<endl;
 	return 0;
 }
-
